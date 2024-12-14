@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.practica08.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_informacion"
+        android:name="com.example.practica08.ui.informacion.InformacionFragment"
+        android:label="@string/informacion"
+        tools:layout="@layout/fragment_informacion" />
+
+    <fragment
+        android:id="@+id/nav_contacto"
+        android:name="com.example.practica08.ui.contacto.ContactoFragment"
+        android:label="@string/contacto"
+        tools:layout="@layout/fragment_contacto" />
+
+    <fragment
+        android:id="@+id/nav_productos"
+        android:name="com.example.practica08.ui.productos.ProductosFragment"
+        android:label="@string/productos"
+        tools:layout="@layout/fragment_productos" />
+</navigation>

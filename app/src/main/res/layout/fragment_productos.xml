@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dusty">
+
+    <TextView
+        android:id="@+id/txtTitle3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/nombre_ferreteria"
+        android:textAllCaps="false"
+        android:textColor="@color/green"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="362dp"
+        android:layout_height="700dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitle3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgProducto01"
+                android:layout_width="match_parent"
+                android:layout_height="174dp"
+                app:srcCompat="@drawable/img_producto01" />
+
+            <ImageView
+                android:id="@+id/imgProducto02"
+                android:layout_width="match_parent"
+                android:layout_height="174dp"
+                app:srcCompat="@drawable/img_producto02" />
+
+            <ImageView
+                android:id="@+id/imgProducto03"
+                android:layout_width="match_parent"
+                android:layout_height="174dp"
+                app:srcCompat="@drawable/img_producto03" />
+
+            <ImageView
+                android:id="@+id/imgProducto04"
+                android:layout_width="match_parent"
+                android:layout_height="174dp"
+                app:srcCompat="@drawable/img_producto04" />
+
+            <ImageView
+                android:id="@+id/imgProducto05"
+                android:layout_width="match_parent"
+                android:layout_height="174dp"
+                app:srcCompat="@drawable/img_producto05" />
+
+            <ImageView
+                android:id="@+id/imgProducto06"
+                android:layout_width="match_parent"
+                android:layout_height="174dp"
+                app:srcCompat="@drawable/img_producto06" />
+
+            <ImageView
+                android:id="@+id/imgProducto07"
+                android:layout_width="match_parent"
+                android:layout_height="174dp"
+                app:srcCompat="@drawable/img_producto07" />
+
+            <ImageView
+                android:id="@+id/imgProducto08"
+                android:layout_width="match_parent"
+                android:layout_height="174dp"
+                app:srcCompat="@drawable/img_producto08" />
+
+            <ImageView
+                android:id="@+id/imgProducto09"
+                android:layout_width="match_parent"
+                android:layout_height="174dp"
+                app:srcCompat="@drawable/img_producto09" />
+
+            <ImageView
+                android:id="@+id/imgProducto10"
+                android:layout_width="match_parent"
+                android:layout_height="174dp"
+                app:srcCompat="@drawable/img_producto10" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
